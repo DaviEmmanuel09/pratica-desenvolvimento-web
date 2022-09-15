@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricao {
+    max-width: 500px;
+}
+
+#contato {
+    margin-top: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
